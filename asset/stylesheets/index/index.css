@@ -1,0 +1,419 @@
+@charset "UTF-8";
+/* line 3, ../../sass/_reset.scss */
+html {
+  color: #000;
+  background: #f5f5f6;
+  font-family: sans-serif;
+  font-size: 27px;
+}
+
+/* line 5, ../../sass/_reset.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, strong, figure, figcaption {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* line 6, ../../sass/_reset.scss */
+body {
+  background: #f5f5f6;
+}
+
+/* line 7, ../../sass/_reset.scss */
+input {
+  border: none;
+}
+
+/* line 8, ../../sass/_reset.scss */
+button {
+  border: none;
+}
+
+/* line 9, ../../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 10, ../../sass/_reset.scss */
+fieldset, img {
+  border: 0;
+}
+
+/* line 11, ../../sass/_reset.scss */
+a {
+  text-decoration: none;
+  color: #00c;
+  outline: none;
+}
+
+/* line 12, ../../sass/_reset.scss */
+var, em, strong {
+  font-style: normal;
+}
+
+/* line 13, ../../sass/_reset.scss */
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/* line 14, ../../sass/_reset.scss */
+del, ins {
+  text-decoration: none;
+}
+
+/* line 15, ../../sass/_reset.scss */
+li {
+  list-style: none;
+}
+
+/* line 16, ../../sass/_reset.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 17, ../../sass/_reset.scss */
+h1, h2, h3, h4, h5, h6, b {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 18, ../../sass/_reset.scss */
+q:before, q:after {
+  content: '';
+}
+
+/* line 19, ../../sass/_reset.scss */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 20, ../../sass/_reset.scss */
+sup {
+  vertical-align: baseline;
+}
+
+/* line 21, ../../sass/_reset.scss */
+sub {
+  vertical-align: baseline;
+}
+
+/* line 22, ../../sass/_reset.scss */
+legend {
+  color: #000;
+}
+
+/* line 23, ../../sass/_reset.scss */
+i {
+  font-style: normal;
+}
+
+/* line 24, ../../sass/_reset.scss */
+input, button, textarea, select, optgroup, option {
+  appearance: none;
+}
+
+/* line 25, ../../sass/_reset.scss */
+input, button, textarea, select {
+  *font-size: 100%;
+}
+
+/* line 26, ../../sass/_reset.scss */
+article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+  display: block;
+}
+
+/*body{-webkit-user-select:none;-webkit-text-size-adjust:none;}*/
+/* line 28, ../../sass/_reset.scss */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 29, ../../sass/_reset.scss */
+.clearfix:after {
+  content: "\200B";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 30, ../../sass/_reset.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 31, ../../sass/_reset.scss */
+.textOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 2, ../../sass/index/index.scss */
+html {
+  width: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 7, ../../sass/index/index.scss */
+body {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/* line 11, ../../sass/index/index.scss */
+.index_contain {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*header*/
+/* line 16, ../../sass/index/index.scss */
+header {
+  padding-top: 0.55556rem;
+  height: 2.96296rem;
+  background-color: #FFF;
+}
+/* line 20, ../../sass/index/index.scss */
+header .index_search {
+  height: 1.62963rem;
+  position: relative;
+  width: 85%;
+  margin: 0rem auto;
+  padding-top: 0.37037rem;
+}
+/* line 26, ../../sass/index/index.scss */
+header .index_search i {
+  color: #CACACA;
+  position: absolute;
+  top: 0.44444rem;
+  left: 0rem;
+  font-size: 1.48148rem;
+}
+/* line 33, ../../sass/index/index.scss */
+header .index_search input {
+  height: 1.62963rem;
+  line-height: 1.62963rem;
+  width: 100%;
+  padding-left: 1.62963rem;
+  font-size: 1.03704rem;
+  color: #CACACA;
+  box-sizing: border-box;
+}
+/* line 42, ../../sass/index/index.scss */
+header .index_search :focus {
+  outline: none;
+}
+/* line 46, ../../sass/index/index.scss */
+header .index_search_bottom {
+  border: 0.07407rem solid #E3E3E3;
+  border-top: none;
+  width: 90%;
+  height: 0.55556rem;
+  margin: 0rem auto;
+}
+
+/*swiper*/
+/* line 55, ../../sass/index/index.scss */
+.banner {
+  margin: 0.37037rem 0rem;
+}
+
+/* line 58, ../../sass/index/index.scss */
+.swiper-container {
+  width: 100%;
+  height: 13.33333rem;
+}
+
+/* line 62, ../../sass/index/index.scss */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 78, ../../sass/index/index.scss */
+.swiper-slide a {
+  width: 100%;
+}
+/* line 80, ../../sass/index/index.scss */
+.swiper-slide a img {
+  width: 100%;
+  height: 13.33333rem;
+  display: block;
+}
+
+/* line 87, ../../sass/index/index.scss */
+.swiper-pagination-bullet {
+  opacity: .6;
+  box-shadow: 0 0 1px #ccc;
+  background-color: #FFF;
+}
+
+/* line 92, ../../sass/index/index.scss */
+.swiper-pagination-bullet-active {
+  border-color: #999;
+  background-color: #ccc;
+}
+
+/* line 96, ../../sass/index/index.scss */
+.index_goods_scroll {
+  width: 100%;
+  margin-bottom: 0.55556rem;
+}
+/* line 99, ../../sass/index/index.scss */
+.index_goods_scroll ul {
+  font-size: 0rem;
+}
+/* line 101, ../../sass/index/index.scss */
+.index_goods_scroll ul li {
+  display: inline-block;
+  margin-right: 0.2963rem;
+}
+/* line 104, ../../sass/index/index.scss */
+.index_goods_scroll ul li img {
+  width: 8.51852rem;
+  height: 11.37037rem;
+}
+/* line 109, ../../sass/index/index.scss */
+.index_goods_scroll ul li:last-child {
+  margin-right: 0rem;
+}
+
+/* line 114, ../../sass/index/index.scss */
+.index_goods_list {
+  background: #FFF;
+  margin-bottom: 3.7037rem;
+}
+/* line 118, ../../sass/index/index.scss */
+.index_goods_list ul li {
+  width: 100%;
+  height: 5.92593rem;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 0.92593rem 0rem;
+  overflow: hidden;
+}
+/* line 124, ../../sass/index/index.scss */
+.index_goods_list ul li a {
+  display: block;
+}
+/* line 126, ../../sass/index/index.scss */
+.index_goods_list ul li a dl {
+  display: -webkit-box;
+  font-size: 0rem;
+}
+/* line 129, ../../sass/index/index.scss */
+.index_goods_list ul li a dl dt {
+  -webkit-box-flex: 10.37037rem;
+  width: 10.37037rem;
+  height: 5.92593rem;
+}
+/* line 133, ../../sass/index/index.scss */
+.index_goods_list ul li a dl dt img {
+  height: 100%;
+  width: 100%;
+}
+/* line 138, ../../sass/index/index.scss */
+.index_goods_list ul li a dl dd {
+  font-size: 0.74074rem;
+  line-height: 1.16667rem;
+  display: inline-block;
+  width: 16.2963rem;
+  box-sizing: border-box;
+  color: #969696;
+  padding-right: 0.55556rem;
+}
+/* line 147, ../../sass/index/index.scss */
+.index_goods_list ul li a dl .name {
+  line-height: 1.55556rem;
+  height: 1.55556rem;
+  font-size: 1.11111rem;
+}
+/* line 152, ../../sass/index/index.scss */
+.index_goods_list ul li a dl .defo {
+  line-height: 1.03704rem;
+  max-height: 2.96296rem;
+  overflow: hidden;
+}
+/* line 157, ../../sass/index/index.scss */
+.index_goods_list ul li a dl .price {
+  color: #FE4900;
+  font-size: 1.03704rem;
+}
+
+/* line 166, ../../sass/index/index.scss */
+footer {
+  border-top: 1px solid #f6f6f6;
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 3.7037rem;
+  padding-top: 0.18519rem;
+  background-color: #FFF;
+  z-index: 9999999;
+}
+/* line 176, ../../sass/index/index.scss */
+footer ul {
+  width: 100%;
+  display: -webkit-box;
+  box-align: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  -webkit-box-pack: center;
+}
+/* line 183, ../../sass/index/index.scss */
+footer ul li {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  width: 100%;
+  text-align: center;
+  margin-top: 0.18519rem;
+}
+/* line 189, ../../sass/index/index.scss */
+footer ul li a {
+  display: block;
+  height: 100%;
+  color: #ccc;
+}
+/* line 193, ../../sass/index/index.scss */
+footer ul li a i {
+  width: 2.22222rem;
+  height: 2.22222rem;
+  display: block;
+  margin: 0rem auto;
+  overflow: hidden;
+  font-size: 1.48148rem;
+}
+/* line 201, ../../sass/index/index.scss */
+footer ul li a p {
+  font-size: 1.03704rem;
+}
+/* line 204, ../../sass/index/index.scss */
+footer ul li a .on {
+  color: #FE4900;
+}
+/* line 208, ../../sass/index/index.scss */
+footer ul li .on {
+  color: #FE4900;
+}
+
+/*瀛椾綋鍥炬爣*/
+/* line 215, ../../sass/index/index.scss */
+.iconfont {
+  font-size: 1.85185rem;
+}
